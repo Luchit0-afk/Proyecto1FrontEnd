@@ -1,0 +1,72 @@
+.attribution {font-size: 11px;text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    width: 1280px;
+    background-image:url("./images/pattern-background-desktop.svg");
+    background: hsl(225, 100%, 94%);
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+} 
+
+#agrupar{
+    background: white;
+    width: 450px;
+    margin: 100px auto;
+    overflow: auto;
+    border-radius: 12px;
+}
+
+#text{
+    color:  gray;
+
+}
+
+#plan{
+    background: #D3D3D3;
+    display: inline-block;
+    width: 400px;
+    border-radius: 12px;
+    overflow: auto;
+}
+
+#plan img{
+    display: block;
+    float: left;
+    margin: 25px auto;
+    margin-left: 10px;
+}
+
+#plan p{
+    display: block;
+    background: yellow;
+    float:  right;    
+}
+
+#pagar{
+    background: hsl(224, 23%, 55%);
+    padding: 13px 6px;
+    /*margin-left: 35px;
+    margin-right: 35px;
+    */
+    margin-left: 23px;
+    width: 400px;
+    
+    border-radius: 12px;
+    overflow: auto;
+
+}
+
+/*.agrupar img{
+  height: calc(100% - XXpx); 
+}
+
+img.cover{
+  object-fit: cover;
+}
+*/
